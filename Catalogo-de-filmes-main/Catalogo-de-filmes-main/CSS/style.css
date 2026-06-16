@@ -1,11 +1,12 @@
 body {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(214, 197, 197);
 }
 
 .card-filme{
-transition: 0.3s;
-cursor: pointer;
+    transition: 0.3s;
+    cursor: pointer;
 }
+
 .card-filme:hover {
     transform: scale(1.03);
 }
@@ -18,16 +19,18 @@ cursor: pointer;
 button {
     border-radius: 10px;
     padding: 10px 30px;
-    background-color:rgb(0, 0, 0)
-    border none;
+    background-color:rgb(148, 93, 93);
+    color:#251d1d;
+    border-inline-start: #251d1d;
 }
 
 button a {
     text-decoration: none;
-    color: #fff;
+    color: #773f3f;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
 }
+
